@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1ED99E166613A70058754E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1ED99C166613A70058754E /* icon.png */; };
+		ED1ED99F166613A70058754E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1ED99D166613A70058754E /* icon@2x.png */; };
+		ED7D9BE11665F38A00929E8B /* EBSVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D9BE01665F38A00929E8B /* EBSVersionCheck.m */; };
+		ED7D9BE51665F9EA00929E8B /* SlideToCancelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D9BE41665F9EA00929E8B /* SlideToCancelViewController.m */; };
+		ED7D9BEE1665FAD500929E8B /* sliderMaxMin-02.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7D9BEB1665FAD500929E8B /* sliderMaxMin-02.png */; };
+		ED7D9BEF1665FAD500929E8B /* sliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7D9BEC1665FAD500929E8B /* sliderThumb.png */; };
+		ED7D9BF01665FAD500929E8B /* sliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7D9BED1665FAD500929E8B /* sliderTrack.png */; };
+		ED7D9BFB1666059600929E8B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7D9BFD1666059600929E8B /* Localizable.strings */; };
+		ED81DB0516637F8000968CD0 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAEF16637F8000968CD0 /* ASIAuthenticationDialog.m */; };
+		ED81DB0616637F8000968CD0 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAF216637F8000968CD0 /* ASIDataCompressor.m */; };
+		ED81DB0716637F8000968CD0 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAF416637F8000968CD0 /* ASIDataDecompressor.m */; };
+		ED81DB0816637F8000968CD0 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAF616637F8000968CD0 /* ASIDownloadCache.m */; };
+		ED81DB0916637F8000968CD0 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAF816637F8000968CD0 /* ASIFormDataRequest.m */; };
+		ED81DB0A16637F8000968CD0 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAFA16637F8000968CD0 /* ASIHTTPRequest.m */; };
+		ED81DB0B16637F8000968CD0 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DAFE16637F8000968CD0 /* ASIInputStream.m */; };
+		ED81DB0C16637F8000968CD0 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB0016637F8000968CD0 /* ASINetworkQueue.m */; };
+		ED81DB0D16637F8000968CD0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB0416637F8000968CD0 /* Reachability.m */; };
+		ED81DB0F1663822500968CD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED81DB0E1663822500968CD0 /* MobileCoreServices.framework */; };
+		ED81DB111663824400968CD0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED81DB101663824400968CD0 /* libz.dylib */; };
+		ED81DB4416647F2400968CD0 /* SEFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB4116647F2400968CD0 /* SEFilterControl.m */; };
+		ED81DB4516647F2400968CD0 /* SEFilterKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB4316647F2400968CD0 /* SEFilterKnob.m */; };
+		ED81DB4916647F2F00968CD0 /* YLProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB4816647F2F00968CD0 /* YLProgressBar.m */; };
+		ED81DB4C16647FC900968CD0 /* noise.png in Resources */ = {isa = PBXBuildFile; fileRef = ED81DB4B16647FC900968CD0 /* noise.png */; };
+		ED81DB4F16647FD800968CD0 /* YLBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB4E16647FD800968CD0 /* YLBackgroundView.m */; };
+		ED81DB5E1664A15D00968CD0 /* MAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB5D1664A15D00968CD0 /* MAlertView.m */; };
+		ED81DB611664BE2400968CD0 /* titlebar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ED81DB5F1664BE2400968CD0 /* titlebar_bg.png */; };
+		ED81DB621664BE2400968CD0 /* titlebar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED81DB601664BE2400968CD0 /* titlebar_bg@2x.png */; };
+		ED81DB661664BEA100968CD0 /* UINavigationBar+CustomBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = ED81DB651664BEA100968CD0 /* UINavigationBar+CustomBackground.m */; };
+		ED8810D316632E9300240B5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8810D216632E9300240B5D /* UIKit.framework */; };
+		ED8810D516632E9300240B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8810D416632E9300240B5D /* Foundation.framework */; };
+		ED8810D716632E9300240B5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8810D616632E9300240B5D /* CoreGraphics.framework */; };
+		ED8810DD16632E9300240B5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8810DB16632E9300240B5D /* InfoPlist.strings */; };
+		ED8810DF16632E9300240B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8810DE16632E9300240B5D /* main.m */; };
+		ED8810E316632E9300240B5D /* EBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8810E216632E9300240B5D /* EBSAppDelegate.m */; };
+		ED8810F216633BA000240B5D /* EBSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8810F016633BA000240B5D /* EBSMainViewController.m */; };
+		ED8810F316633BA000240B5D /* EBSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8810F116633BA000240B5D /* EBSMainViewController.xib */; };
+		ED88111F1663414100240B5D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = ED88111C1663414100240B5D /* SimplePing.m */; };
+		ED8811201663414100240B5D /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED88111E1663414100240B5D /* SimplePingHelper.m */; };
+		ED881151166343A400240B5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED881150166343A400240B5D /* CFNetwork.framework */; };
+		ED881154166343D300240B5D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED881153166343D300240B5D /* libiconv.dylib */; };
+		ED8811761663444300240B5D /* libmailcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88116F1663443100240B5D /* libmailcore.a */; };
+		ED88117B1663444300240B5D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8811771663444300240B5D /* libcrypto.a */; };
+		ED88117C1663444300240B5D /* libetpan_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8811781663444300240B5D /* libetpan_ios.a */; };
+		ED88117D1663444300240B5D /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8811791663444300240B5D /* libsasl2.a */; };
+		ED88117E1663444300240B5D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88117A1663444300240B5D /* libssl.a */; };
+		ED8811821663447E00240B5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8811811663447E00240B5D /* SystemConfiguration.framework */; };
+		ED881186166344F600240B5D /* EBSMailReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED881185166344F600240B5D /* EBSMailReader.m */; };
+		ED9D9A531663622000B61227 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9A521663622000B61227 /* Singleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED88116C1663443100240B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8811551663443000240B5D /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = MailCore;
+		};
+		ED88116E1663443100240B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8811551663443000240B5D /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8618B5710DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		ED8811701663443100240B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8811551663443000240B5D /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8DFCF4915801A5000C01975;
+			remoteInfo = Tests;
+		};
+		ED88117F1663446200240B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8811551663443000240B5D /* MailCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8618B5610DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1ED98F166606270058754E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		ED1ED99C166613A70058754E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ED1ED99D166613A70058754E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		ED7D9BDF1665F38A00929E8B /* EBSVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBSVersionCheck.h; sourceTree = "<group>"; };
+		ED7D9BE01665F38A00929E8B /* EBSVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBSVersionCheck.m; sourceTree = "<group>"; };
+		ED7D9BE31665F9EA00929E8B /* SlideToCancelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideToCancelViewController.h; sourceTree = "<group>"; };
+		ED7D9BE41665F9EA00929E8B /* SlideToCancelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideToCancelViewController.m; sourceTree = "<group>"; };
+		ED7D9BEB1665FAD500929E8B /* sliderMaxMin-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sliderMaxMin-02.png"; path = "Resources/sliderMaxMin-02.png"; sourceTree = "<group>"; };
+		ED7D9BEC1665FAD500929E8B /* sliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderThumb.png; path = Resources/sliderThumb.png; sourceTree = "<group>"; };
+		ED7D9BED1665FAD500929E8B /* sliderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderTrack.png; path = Resources/sliderTrack.png; sourceTree = "<group>"; };
+		ED7D9BFC1666059600929E8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ED81DAEE16637F8000968CD0 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		ED81DAEF16637F8000968CD0 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		ED81DAF016637F8000968CD0 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		ED81DAF116637F8000968CD0 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		ED81DAF216637F8000968CD0 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		ED81DAF316637F8000968CD0 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		ED81DAF416637F8000968CD0 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		ED81DAF516637F8000968CD0 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		ED81DAF616637F8000968CD0 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		ED81DAF716637F8000968CD0 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		ED81DAF816637F8000968CD0 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		ED81DAF916637F8000968CD0 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		ED81DAFA16637F8000968CD0 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		ED81DAFB16637F8000968CD0 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		ED81DAFC16637F8000968CD0 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		ED81DAFD16637F8000968CD0 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		ED81DAFE16637F8000968CD0 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		ED81DAFF16637F8000968CD0 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		ED81DB0016637F8000968CD0 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		ED81DB0116637F8000968CD0 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		ED81DB0316637F8000968CD0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		ED81DB0416637F8000968CD0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ED81DB0E1663822500968CD0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ED81DB101663824400968CD0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		ED81DB4016647F2400968CD0 /* SEFilterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterControl.h; sourceTree = "<group>"; };
+		ED81DB4116647F2400968CD0 /* SEFilterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterControl.m; sourceTree = "<group>"; };
+		ED81DB4216647F2400968CD0 /* SEFilterKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterKnob.h; sourceTree = "<group>"; };
+		ED81DB4316647F2400968CD0 /* SEFilterKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterKnob.m; sourceTree = "<group>"; };
+		ED81DB4716647F2F00968CD0 /* YLProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLProgressBar.h; sourceTree = "<group>"; };
+		ED81DB4816647F2F00968CD0 /* YLProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLProgressBar.m; sourceTree = "<group>"; };
+		ED81DB4B16647FC900968CD0 /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noise.png; path = Resources/noise.png; sourceTree = "<group>"; };
+		ED81DB4D16647FD800968CD0 /* YLBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBackgroundView.h; sourceTree = "<group>"; };
+		ED81DB4E16647FD800968CD0 /* YLBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBackgroundView.m; sourceTree = "<group>"; };
+		ED81DB501664800000968CD0 /* ARCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacro.h; sourceTree = "<group>"; };
+		ED81DB5C1664A15D00968CD0 /* MAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAlertView.h; sourceTree = "<group>"; };
+		ED81DB5D1664A15D00968CD0 /* MAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAlertView.m; sourceTree = "<group>"; };
+		ED81DB5F1664BE2400968CD0 /* titlebar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titlebar_bg.png; path = Resources/titlebar_bg.png; sourceTree = "<group>"; };
+		ED81DB601664BE2400968CD0 /* titlebar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "titlebar_bg@2x.png"; path = "Resources/titlebar_bg@2x.png"; sourceTree = "<group>"; };
+		ED81DB641664BEA100968CD0 /* UINavigationBar+CustomBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomBackground.h"; sourceTree = "<group>"; };
+		ED81DB651664BEA100968CD0 /* UINavigationBar+CustomBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomBackground.m"; sourceTree = "<group>"; };
+		ED8810CE16632E9300240B5D /* EBSurfForQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBSurfForQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8810D216632E9300240B5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED8810D416632E9300240B5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED8810D616632E9300240B5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED8810DA16632E9300240B5D /* EBSurfForQQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EBSurfForQQ-Info.plist"; sourceTree = "<group>"; };
+		ED8810DC16632E9300240B5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED8810DE16632E9300240B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8810E016632E9300240B5D /* EBSurfForQQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EBSurfForQQ-Prefix.pch"; sourceTree = "<group>"; };
+		ED8810E116632E9300240B5D /* EBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBSAppDelegate.h; sourceTree = "<group>"; };
+		ED8810E216632E9300240B5D /* EBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBSAppDelegate.m; sourceTree = "<group>"; };
+		ED8810EF16633BA000240B5D /* EBSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBSMainViewController.h; sourceTree = "<group>"; };
+		ED8810F016633BA000240B5D /* EBSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBSMainViewController.m; sourceTree = "<group>"; };
+		ED8810F116633BA000240B5D /* EBSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBSMainViewController.xib; sourceTree = "<group>"; };
+		ED88111B1663414100240B5D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		ED88111C1663414100240B5D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		ED88111D1663414100240B5D /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		ED88111E1663414100240B5D /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		ED881150166343A400240B5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ED881153166343D300240B5D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		ED8811551663443000240B5D /* MailCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MailCore.xcodeproj; path = ../../Downloads/MailCore/MailCore.xcodeproj; sourceTree = "<group>"; };
+		ED8811771663444300240B5D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../Downloads/MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		ED8811781663444300240B5D /* libetpan_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libetpan_ios.a; path = "../../Downloads/MailCore/libetpan/build-mac/build/Release-iphoneos/libetpan_ios.a"; sourceTree = "<group>"; };
+		ED8811791663444300240B5D /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "../../Downloads/MailCore/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+		ED88117A1663444300240B5D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../Downloads/MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		ED8811811663447E00240B5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ED881184166344F600240B5D /* EBSMailReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBSMailReader.h; sourceTree = "<group>"; };
+		ED881185166344F600240B5D /* EBSMailReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBSMailReader.m; sourceTree = "<group>"; };
+		ED9D9A511663622000B61227 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Singleton/Singleton.h; sourceTree = "<group>"; };
+		ED9D9A521663622000B61227 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = Singleton/Singleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8810CB16632E9300240B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED81DB111663824400968CD0 /* libz.dylib in Frameworks */,
+				ED81DB0F1663822500968CD0 /* MobileCoreServices.framework in Frameworks */,
+				ED8811821663447E00240B5D /* SystemConfiguration.framework in Frameworks */,
+				ED88117B1663444300240B5D /* libcrypto.a in Frameworks */,
+				ED88117C1663444300240B5D /* libetpan_ios.a in Frameworks */,
+				ED88117D1663444300240B5D /* libsasl2.a in Frameworks */,
+				ED88117E1663444300240B5D /* libssl.a in Frameworks */,
+				ED8811761663444300240B5D /* libmailcore.a in Frameworks */,
+				ED881154166343D300240B5D /* libiconv.dylib in Frameworks */,
+				ED881151166343A400240B5D /* CFNetwork.framework in Frameworks */,
+				ED8810D316632E9300240B5D /* UIKit.framework in Frameworks */,
+				ED8810D516632E9300240B5D /* Foundation.framework in Frameworks */,
+				ED8810D716632E9300240B5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7D9BDE1665F37600929E8B /* VersionCheck */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D9BDF1665F38A00929E8B /* EBSVersionCheck.h */,
+				ED7D9BE01665F38A00929E8B /* EBSVersionCheck.m */,
+			);
+			name = VersionCheck;
+			sourceTree = "<group>";
+		};
+		ED7D9BE21665F98300929E8B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				ED8810EF16633BA000240B5D /* EBSMainViewController.h */,
+				ED8810F016633BA000240B5D /* EBSMainViewController.m */,
+				ED8810F116633BA000240B5D /* EBSMainViewController.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		ED7D9BE61665FA2000929E8B /* SlideToCancelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D9BE31665F9EA00929E8B /* SlideToCancelViewController.h */,
+				ED7D9BE41665F9EA00929E8B /* SlideToCancelViewController.m */,
+			);
+			name = SlideToCancelViewController;
+			sourceTree = "<group>";
+		};
+		ED81DAED16637F8000968CD0 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DAEE16637F8000968CD0 /* ASIAuthenticationDialog.h */,
+				ED81DAEF16637F8000968CD0 /* ASIAuthenticationDialog.m */,
+				ED81DAF016637F8000968CD0 /* ASICacheDelegate.h */,
+				ED81DAF116637F8000968CD0 /* ASIDataCompressor.h */,
+				ED81DAF216637F8000968CD0 /* ASIDataCompressor.m */,
+				ED81DAF316637F8000968CD0 /* ASIDataDecompressor.h */,
+				ED81DAF416637F8000968CD0 /* ASIDataDecompressor.m */,
+				ED81DAF516637F8000968CD0 /* ASIDownloadCache.h */,
+				ED81DAF616637F8000968CD0 /* ASIDownloadCache.m */,
+				ED81DAF716637F8000968CD0 /* ASIFormDataRequest.h */,
+				ED81DAF816637F8000968CD0 /* ASIFormDataRequest.m */,
+				ED81DAF916637F8000968CD0 /* ASIHTTPRequest.h */,
+				ED81DAFA16637F8000968CD0 /* ASIHTTPRequest.m */,
+				ED81DAFB16637F8000968CD0 /* ASIHTTPRequestConfig.h */,
+				ED81DAFC16637F8000968CD0 /* ASIHTTPRequestDelegate.h */,
+				ED81DAFD16637F8000968CD0 /* ASIInputStream.h */,
+				ED81DAFE16637F8000968CD0 /* ASIInputStream.m */,
+				ED81DAFF16637F8000968CD0 /* ASINetworkQueue.h */,
+				ED81DB0016637F8000968CD0 /* ASINetworkQueue.m */,
+				ED81DB0116637F8000968CD0 /* ASIProgressDelegate.h */,
+				ED81DB0216637F8000968CD0 /* Reachability */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		ED81DB0216637F8000968CD0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB0316637F8000968CD0 /* Reachability.h */,
+				ED81DB0416637F8000968CD0 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		ED81DB3F16647F2400968CD0 /* SEFilter */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB4016647F2400968CD0 /* SEFilterControl.h */,
+				ED81DB4116647F2400968CD0 /* SEFilterControl.m */,
+				ED81DB4216647F2400968CD0 /* SEFilterKnob.h */,
+				ED81DB4316647F2400968CD0 /* SEFilterKnob.m */,
+			);
+			path = SEFilter;
+			sourceTree = "<group>";
+		};
+		ED81DB4616647F2F00968CD0 /* YLProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB4716647F2F00968CD0 /* YLProgressBar.h */,
+				ED81DB4816647F2F00968CD0 /* YLProgressBar.m */,
+			);
+			path = YLProgressBar;
+			sourceTree = "<group>";
+		};
+		ED81DB4A16647F8100968CD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB631664BE6D00968CD0 /* CustomNavigation */,
+				ED81DB511664800C00968CD0 /* YLBackgroundView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ED81DB511664800C00968CD0 /* YLBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB501664800000968CD0 /* ARCMacro.h */,
+				ED81DB4D16647FD800968CD0 /* YLBackgroundView.h */,
+				ED81DB4E16647FD800968CD0 /* YLBackgroundView.m */,
+			);
+			name = YLBackgroundView;
+			sourceTree = "<group>";
+		};
+		ED81DB5B1664A15D00968CD0 /* MAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB5C1664A15D00968CD0 /* MAlertView.h */,
+				ED81DB5D1664A15D00968CD0 /* MAlertView.m */,
+			);
+			path = MAlertView;
+			sourceTree = SOURCE_ROOT;
+		};
+		ED81DB631664BE6D00968CD0 /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB641664BEA100968CD0 /* UINavigationBar+CustomBackground.h */,
+				ED81DB651664BEA100968CD0 /* UINavigationBar+CustomBackground.m */,
+			);
+			name = CustomNavigation;
+			sourceTree = "<group>";
+		};
+		ED8810C316632E9300240B5D = {
+			isa = PBXGroup;
+			children = (
+				ED8811191663412C00240B5D /* ThirdParts */,
+				ED8810F416633BF300240B5D /* Resources */,
+				ED8810D816632E9300240B5D /* EBSurfForQQ */,
+				ED8810D116632E9300240B5D /* Frameworks */,
+				ED8810CF16632E9300240B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8810CF16632E9300240B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8810CE16632E9300240B5D /* EBSurfForQQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8810D116632E9300240B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED81DB101663824400968CD0 /* libz.dylib */,
+				ED8811771663444300240B5D /* libcrypto.a */,
+				ED8811781663444300240B5D /* libetpan_ios.a */,
+				ED8811791663444300240B5D /* libsasl2.a */,
+				ED88117A1663444300240B5D /* libssl.a */,
+				ED881153166343D300240B5D /* libiconv.dylib */,
+				ED81DB0E1663822500968CD0 /* MobileCoreServices.framework */,
+				ED8811811663447E00240B5D /* SystemConfiguration.framework */,
+				ED881150166343A400240B5D /* CFNetwork.framework */,
+				ED8810D216632E9300240B5D /* UIKit.framework */,
+				ED8810D416632E9300240B5D /* Foundation.framework */,
+				ED8810D616632E9300240B5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8810D816632E9300240B5D /* EBSurfForQQ */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D9BDE1665F37600929E8B /* VersionCheck */,
+				ED81DB4A16647F8100968CD0 /* Views */,
+				ED9D9A501663620100B61227 /* Model */,
+				ED881114166340B400240B5D /* Mail */,
+				ED8810EE16633B8600240B5D /* Controllers */,
+				ED8810E116632E9300240B5D /* EBSAppDelegate.h */,
+				ED8810E216632E9300240B5D /* EBSAppDelegate.m */,
+				ED8810D916632E9300240B5D /* Supporting Files */,
+			);
+			path = EBSurfForQQ;
+			sourceTree = "<group>";
+		};
+		ED8810D916632E9300240B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8810DA16632E9300240B5D /* EBSurfForQQ-Info.plist */,
+				ED8810DB16632E9300240B5D /* InfoPlist.strings */,
+				ED8810DE16632E9300240B5D /* main.m */,
+				ED8810E016632E9300240B5D /* EBSurfForQQ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED8810EE16633B8600240B5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D9BE61665FA2000929E8B /* SlideToCancelViewController */,
+				ED7D9BE21665F98300929E8B /* MainView */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ED8810F416633BF300240B5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1ED99C166613A70058754E /* icon.png */,
+				ED1ED99D166613A70058754E /* icon@2x.png */,
+				ED7D9BEB1665FAD500929E8B /* sliderMaxMin-02.png */,
+				ED7D9BEC1665FAD500929E8B /* sliderThumb.png */,
+				ED7D9BED1665FAD500929E8B /* sliderTrack.png */,
+				ED81DB5F1664BE2400968CD0 /* titlebar_bg.png */,
+				ED81DB601664BE2400968CD0 /* titlebar_bg@2x.png */,
+				ED81DB4B16647FC900968CD0 /* noise.png */,
+				ED7D9BFD1666059600929E8B /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ED881114166340B400240B5D /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				ED881183166344D800240B5D /* MailReader */,
+			);
+			name = Mail;
+			sourceTree = "<group>";
+		};
+		ED8811191663412C00240B5D /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				ED8811551663443000240B5D /* MailCore.xcodeproj */,
+				ED81DB5B1664A15D00968CD0 /* MAlertView */,
+				ED81DB4616647F2F00968CD0 /* YLProgressBar */,
+				ED81DB3F16647F2400968CD0 /* SEFilter */,
+				ED81DAED16637F8000968CD0 /* ASIHTTPRequest */,
+				ED88111A1663414100240B5D /* SimplePing */,
+			);
+			name = ThirdParts;
+			sourceTree = "<group>";
+		};
+		ED88111A1663414100240B5D /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				ED88111B1663414100240B5D /* SimplePing.h */,
+				ED88111C1663414100240B5D /* SimplePing.m */,
+				ED88111D1663414100240B5D /* SimplePingHelper.h */,
+				ED88111E1663414100240B5D /* SimplePingHelper.m */,
+			);
+			path = SimplePing;
+			sourceTree = "<group>";
+		};
+		ED8811561663443000240B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED88116D1663443100240B5D /* MailCore.framework */,
+				ED88116F1663443100240B5D /* libmailcore.a */,
+				ED8811711663443100240B5D /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED881183166344D800240B5D /* MailReader */ = {
+			isa = PBXGroup;
+			children = (
+				ED881184166344F600240B5D /* EBSMailReader.h */,
+				ED881185166344F600240B5D /* EBSMailReader.m */,
+			);
+			name = MailReader;
+			sourceTree = "<group>";
+		};
+		ED9D9A501663620100B61227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D9A511663622000B61227 /* Singleton.h */,
+				ED9D9A521663622000B61227 /* Singleton.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8810CD16632E9300240B5D /* EBSurfForQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8810E616632E9300240B5D /* Build configuration list for PBXNativeTarget "EBSurfForQQ" */;
+			buildPhases = (
+				ED8810CA16632E9300240B5D /* Sources */,
+				ED8810CB16632E9300240B5D /* Frameworks */,
+				ED8810CC16632E9300240B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8811801663446200240B5D /* PBXTargetDependency */,
+			);
+			name = EBSurfForQQ;
+			productName = EBSurfForQQ;
+			productReference = ED8810CE16632E9300240B5D /* EBSurfForQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8810C516632E9300240B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EBS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ED8810C816632E9300240B5D /* Build configuration list for PBXProject "EBSurfForQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = ED8810C316632E9300240B5D;
+			productRefGroup = ED8810CF16632E9300240B5D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED8811561663443000240B5D /* Products */;
+					ProjectRef = ED8811551663443000240B5D /* MailCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				ED8810CD16632E9300240B5D /* EBSurfForQQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ED88116D1663443100240B5D /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = ED88116C1663443100240B5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED88116F1663443100240B5D /* libmailcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmailcore.a;
+			remoteRef = ED88116E1663443100240B5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED8811711663443100240B5D /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = ED8811701663443100240B5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8810CC16632E9300240B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8810DD16632E9300240B5D /* InfoPlist.strings in Resources */,
+				ED8810F316633BA000240B5D /* EBSMainViewController.xib in Resources */,
+				ED81DB4C16647FC900968CD0 /* noise.png in Resources */,
+				ED81DB611664BE2400968CD0 /* titlebar_bg.png in Resources */,
+				ED81DB621664BE2400968CD0 /* titlebar_bg@2x.png in Resources */,
+				ED7D9BEE1665FAD500929E8B /* sliderMaxMin-02.png in Resources */,
+				ED7D9BEF1665FAD500929E8B /* sliderThumb.png in Resources */,
+				ED7D9BF01665FAD500929E8B /* sliderTrack.png in Resources */,
+				ED7D9BFB1666059600929E8B /* Localizable.strings in Resources */,
+				ED1ED99E166613A70058754E /* icon.png in Resources */,
+				ED1ED99F166613A70058754E /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8810CA16632E9300240B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8810DF16632E9300240B5D /* main.m in Sources */,
+				ED8810E316632E9300240B5D /* EBSAppDelegate.m in Sources */,
+				ED8810F216633BA000240B5D /* EBSMainViewController.m in Sources */,
+				ED88111F1663414100240B5D /* SimplePing.m in Sources */,
+				ED8811201663414100240B5D /* SimplePingHelper.m in Sources */,
+				ED881186166344F600240B5D /* EBSMailReader.m in Sources */,
+				ED9D9A531663622000B61227 /* Singleton.m in Sources */,
+				ED81DB0516637F8000968CD0 /* ASIAuthenticationDialog.m in Sources */,
+				ED81DB0616637F8000968CD0 /* ASIDataCompressor.m in Sources */,
+				ED81DB0716637F8000968CD0 /* ASIDataDecompressor.m in Sources */,
+				ED81DB0816637F8000968CD0 /* ASIDownloadCache.m in Sources */,
+				ED81DB0916637F8000968CD0 /* ASIFormDataRequest.m in Sources */,
+				ED81DB0A16637F8000968CD0 /* ASIHTTPRequest.m in Sources */,
+				ED81DB0B16637F8000968CD0 /* ASIInputStream.m in Sources */,
+				ED81DB0C16637F8000968CD0 /* ASINetworkQueue.m in Sources */,
+				ED81DB0D16637F8000968CD0 /* Reachability.m in Sources */,
+				ED81DB4416647F2400968CD0 /* SEFilterControl.m in Sources */,
+				ED81DB4516647F2400968CD0 /* SEFilterKnob.m in Sources */,
+				ED81DB4916647F2F00968CD0 /* YLProgressBar.m in Sources */,
+				ED81DB4F16647FD800968CD0 /* YLBackgroundView.m in Sources */,
+				ED81DB5E1664A15D00968CD0 /* MAlertView.m in Sources */,
+				ED81DB661664BEA100968CD0 /* UINavigationBar+CustomBackground.m in Sources */,
+				ED7D9BE11665F38A00929E8B /* EBSVersionCheck.m in Sources */,
+				ED7D9BE51665F9EA00929E8B /* SlideToCancelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8811801663446200240B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MailCore iOS";
+			targetProxy = ED88117F1663446200240B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7D9BFD1666059600929E8B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7D9BFC1666059600929E8B /* en */,
+				ED1ED98F166606270058754E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			path = EBSurfForQQ;
+			sourceTree = "<group>";
+		};
+		ED8810DB16632E9300240B5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8810DC16632E9300240B5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8810E416632E9300240B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8810E516632E9300240B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8810E716632E9300240B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBSurfForQQ/EBSurfForQQ-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
+				INFOPLIST_FILE = "EBSurfForQQ/EBSurfForQQ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED8810E816632E9300240B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBSurfForQQ/EBSurfForQQ-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
+				INFOPLIST_FILE = "EBSurfForQQ/EBSurfForQQ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8810C816632E9300240B5D /* Build configuration list for PBXProject "EBSurfForQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8810E416632E9300240B5D /* Debug */,
+				ED8810E516632E9300240B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8810E616632E9300240B5D /* Build configuration list for PBXNativeTarget "EBSurfForQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8810E716632E9300240B5D /* Debug */,
+				ED8810E816632E9300240B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8810C516632E9300240B5D /* Project object */;
+}
