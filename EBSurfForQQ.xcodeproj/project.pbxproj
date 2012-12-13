@@ -55,6 +55,7 @@
 		ED8811821663447E00240B5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8811811663447E00240B5D /* SystemConfiguration.framework */; };
 		ED881186166344F600240B5D /* EBSMailReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED881185166344F600240B5D /* EBSMailReader.m */; };
 		ED9D9A531663622000B61227 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9A521663622000B61227 /* Singleton.m */; };
+		EDC5C5F71679D003000CBBEF /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC5C5F51679D003000CBBEF /* libMobClickLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,8 @@
 		ED881185166344F600240B5D /* EBSMailReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBSMailReader.m; sourceTree = "<group>"; };
 		ED9D9A511663622000B61227 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Singleton/Singleton.h; sourceTree = "<group>"; };
 		ED9D9A521663622000B61227 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = Singleton/Singleton.m; sourceTree = "<group>"; };
+		EDC5C5F51679D003000CBBEF /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobClickLibrary.a; path = Mob/libMobClickLibrary.a; sourceTree = "<group>"; };
+		EDC5C5F61679D003000CBBEF /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobClick.h; path = Mob/MobClick.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,7 @@
 				ED8810D316632E9300240B5D /* UIKit.framework in Frameworks */,
 				ED8810D516632E9300240B5D /* Foundation.framework in Frameworks */,
 				ED8810D716632E9300240B5D /* CoreGraphics.framework in Frameworks */,
+				EDC5C5F71679D003000CBBEF /* libMobClickLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 		ED8811191663412C00240B5D /* ThirdParts */ = {
 			isa = PBXGroup;
 			children = (
+				EDC5C5F41679CFF7000CBBEF /* MobClick */,
 				ED8811551663443000240B5D /* MailCore.xcodeproj */,
 				ED81DB5B1664A15D00968CD0 /* MAlertView */,
 				ED81DB4616647F2F00968CD0 /* YLProgressBar */,
@@ -464,6 +469,15 @@
 				ED9D9A521663622000B61227 /* Singleton.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EDC5C5F41679CFF7000CBBEF /* MobClick */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5C5F51679D003000CBBEF /* libMobClickLibrary.a */,
+				EDC5C5F61679D003000CBBEF /* MobClick.h */,
+			);
+			name = MobClick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -682,6 +696,11 @@
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
 				INFOPLIST_FILE = "EBSurfForQQ/EBSurfForQQ-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Mob\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -696,6 +715,11 @@
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
 				INFOPLIST_FILE = "EBSurfForQQ/EBSurfForQQ-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Mob\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

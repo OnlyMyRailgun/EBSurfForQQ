@@ -8,6 +8,7 @@
 
 #import "EBSAppDelegate.h"
 #import "EBSMainViewController.h"
+#import "MobClick.h"
 
 @implementation EBSAppDelegate
 
@@ -21,6 +22,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //MobClick
+    [MobClick startWithAppkey:@"50c999f352701538ff000058"];
+    [MobClick setLogEnabled:YES];
+    [MobClick setCrashReportEnabled:YES];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     EBSMainViewController *mainViewController = [[EBSMainViewController alloc] initWithNibName:@"EBSMainViewController" bundle:nil];
