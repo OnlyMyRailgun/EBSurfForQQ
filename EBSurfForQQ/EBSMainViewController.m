@@ -176,7 +176,7 @@
 - (void)pingBaidu
 {
     if([self respondsToSelector:@selector(resultPingBaidu:)])
-        [SimplePingHelper ping:@"220.181.37.55" target:self sel:@selector(resultPingBaidu:)];
+        [SimplePingHelper ping:@"www.baidu.com" target:self sel:@selector(resultPingBaidu:)];
     else {
         appconsole.text = [appconsole.text stringByAppendingString:@"\n pingBaidu: no response to resultPingBaidu"];
     }/*220.181.37.55*/

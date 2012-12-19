@@ -691,6 +691,8 @@
 		ED8810E716632E9300240B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kissshot Heartunderblade (42GYPQJ8F2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kissshot Heartunderblade (42GYPQJ8F2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EBSurfForQQ/EBSurfForQQ-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
@@ -702,6 +704,8 @@
 					"\"$(SRCROOT)/Mob\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ED2CBBAD-508F-4287-B20D-B8442330E70D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ED2CBBAD-508F-4287-B20D-B8442330E70D";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -710,6 +714,8 @@
 		ED8810E816632E9300240B5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Eastcom-Bupt Information Technology Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Eastcom-Bupt Information Technology Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EBSurfForQQ/EBSurfForQQ-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
@@ -721,6 +727,8 @@
 					"\"$(SRCROOT)/Mob\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DC77AB1C-ECD3-4BED-B387-D66B5E916316";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC77AB1C-ECD3-4BED-B387-D66B5E916316";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
